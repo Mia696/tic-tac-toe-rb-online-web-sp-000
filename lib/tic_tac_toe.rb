@@ -10,8 +10,7 @@ WIN_COMBINATIONS = [
 ]
 
 def play(board)
-  while !over?(board)
-    turn(board)
+  input = gets
   end
 
   if won?(board)
